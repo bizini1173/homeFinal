@@ -1,1 +1,41 @@
-История команд терминала
+    1  echo -e "Собаки\nКошки\nХомяки" > Домашние_животные.txt
+    2  echo -e "Лошади\nВерблюды\nОслы" > Вьючные_животные.txt
+    3  cat Домашние_животные.txt Вьючные_животные.txt > Все_животные.txt
+    4  cat Все_животные.txt
+    5  mv Все_животные.txt Друзья_человека.txt
+    6  mkdir Животные
+    7  mv Друзья_человека.txt Животные/
+    8  wget https://dev.mysql.com/get/mysql-apt-config_0.8.16-1_all.deb
+    9  sudo dpkg -i mysql-apt-config_0.8.16-1_all.deb
+   10  sudo apt-get update
+   11  sudo apt-get install mysql-server
+   12  wget http://archive.ubuntu.com/ubuntu/pool/universe/f/fortune-mod/fortune-mod_1.99.1-7build1_amd64.deb
+   13  sudo dpkg -i fortune-mod_1.99.1-7build1_amd64.deb
+   14  sudo dpkg -r fortune-mod
+   15  history
+   16  history > history_commands.txt
+   17  sudo apt-get update
+   18  sudo apt-get install git
+   19  git add history_commands.txt
+   20  git commit -m "Добавлена история команд терминала"
+   21  git push origin master
+   22  git clone https://github.com/bizini1173/homeFinal.git
+   23  cd homeFinal
+   24  echo "История команд терминала" > history_commands.txt
+   25  git add history_commands.txt
+   26  git commit -m "Добавлена история команд терминала"
+   27  git push origin master
+   28  git branch
+   29  git push origin main
+   30  ssh-keygen -t rsa -b 4096 -C "vika.bizikova@yandex.ru"
+   31  eval "$(ssh-agent -s)"
+   32  ssh-add ~/.ssh/id_rsa
+   33  cat ~/.ssh/id_rsa.pub
+   34  git clone git@github.com:bizini1173/homeFinal.git
+   35  cd homeFinal
+   36  echo "История команд терминала" > history_commands.txt
+   37  git add history_commands.txt
+   38  git commit -m "Добавлена история команд терминала"
+   39  git push origin main
+   40  history
+   41  history > history_commands.txt
